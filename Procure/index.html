@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+		body {
+			width: 100vw;
+			height: 100vh;
+			margin: 0;
+			padding: 0;
+			overflow: hide;
+			outline: 0;
+		}
+		
+		#dvMap {
+			width: 100%;
+			height: 87.5vh;
+			background: #eaeaea;
+		}
+		
+
+		/* dv Search Box   */
+		#dvSearchBoox {
+			width: 100%;
+			height: 12.5vh;
+			border-top: solid thin #9ff21a;
+			background: #000;
+		}
+
+		#txtCity {
+			width: 75vw;
+			height: 35px;
+			margin-left: 11.5vw;
+			margin-top: calc((12.5vh - 35px)/2);
+			border: none;
+			border-radius: 40px;
+			padding: 0 10px;
+			font-size: 12px;
+		}
+
+		#txtCity:focus {
+			outline: none;
+		}
+		</style>
+	
+	</head>
+	<body>
+		<div id="dvMap">
+		
+		</div>
+		
+		<div id="dvSearchBoox">
+			<form>
+				<input type="text" id="txtCity"  maxlength="20" autocomplete="off" spellcheck="false" placeholder="Enter city" />
+			</form>
+		</div>
+	
+	</body>
+</html>
